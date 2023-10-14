@@ -1,0 +1,237 @@
+/* Criação da minha primeira folha de estilo  CSS tentando seguir o modelo da DIO*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url(reset.css);
+
+/*-----------------------CONFIGURAÇÕES GLOBAIS----------------------*/
+body {
+    background-color: black;
+}
+
+h2{
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    padding-top: 20px;
+}
+
+p{
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    object-position: center;    
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*---------------------------CABEÇALHO--------------------------*/
+
+.banner {
+    
+    color: #33a8db;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('banner.png');
+    background-position: top;
+    background-attachment: fixed;
+    background-size: round;
+    border: 0px 0px 1px 0px;
+    }
+.banner .banner-content{
+
+    background-size: 510px 393px;
+    background-position: top 56px left 465px;
+    gap: 16px;
+    padding-bottom: 20px;
+     }
+
+.banner-content h1{
+
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    
+    }
+
+.banner-content p{
+
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+        object-position: center;    
+        margin-left: 25%;
+        margin-right: 25%;
+}
+
+
+.banner .logo {
+    background-color: rgba(0, 0, 0, .2);
+    height: 268px;
+    width: 268px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    }
+
+.banner-content .logo img {
+
+    margin:auto;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo{
+    display: flex;
+    width: 326px;
+    padding: 19px 91px;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+
+    color: #31A8DD;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background: transparent; 
+    border: 2px solid;
+    border-color:linear-gradient(#3BA1CD #1572B7);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/*---------------------------CORPO DA PÁGINA--------------------------*/
+
+/*---------------------------Course Content---------------------------*/
+
+#course-content {
+    border-top: 1px solid #33A8DB;
+    margin: auto;
+    text-align: center;
+    height: 480px;
+}
+
+#course-content p{
+
+    padding-bottom: 20px;
+}
+.module{
+
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    /*width: 535px;*/
+    padding: 20px 127px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+span{
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*---------------------------Transform World--------------------------*/
+
+#transform-world {
+
+    border-top: 1px solid #33A8DB;
+    background-image: url(woman-code.png);
+    background-size: cover;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#transform-world p{
+
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 5%;
+    margin-right: 75%;
+    padding-top: 8%;
+}
+
+/*-------------------Professional Chalenges----------------------*/
+
+
+#professional-challenges{
+    
+    border-top: 1px solid #33A8DB;
+    text-align: center;
+    
+}
+
+#professional-challenges img{
+    width: 659px;
+    height: 429px;
+    flex-shrink: 0;
+}
+
+/*---------------------------RODAPÉ--------------------------*/
+
+footer{
+
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+    padding: 40px;
+    text-align: center;
+}
+
+a{
+
+    text-decoration: none;
+
+}
